@@ -1,0 +1,7 @@
+<h1>{{appTitle}} 🚀</h1>
+<p>Welcome Ironhacker!</p>
+
+{{#each allProducts}}
+<li>{{this.title}}</li>
+ <li><a href="/details/{{this.id}}"><img src="{{this.image}}" alt="{{this.name}}" /></a></li>
+{{/each}}
